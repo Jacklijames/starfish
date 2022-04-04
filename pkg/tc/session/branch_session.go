@@ -11,10 +11,10 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/meta"
-	"github.com/gotrx/starfish/pkg/tc/config"
-	"github.com/gotrx/starfish/pkg/util/log"
-	"github.com/gotrx/starfish/pkg/util/uuid"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/tc/config"
+	"github.com/transaction-mesh/starfish/pkg/util/log"
+	"github.com/transaction-mesh/starfish/pkg/util/uuid"
 )
 
 type BranchSession struct {

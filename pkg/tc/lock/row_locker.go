@@ -5,8 +5,8 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/common"
-	"github.com/gotrx/starfish/pkg/tc/session"
+	"github.com/transaction-mesh/starfish/pkg/base/common"
+	"github.com/transaction-mesh/starfish/pkg/tc/session"
 )
 
 const LOCK_SPLIT = "^^^"

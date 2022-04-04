@@ -1,7 +1,7 @@
 package config_center
 
 import (
-	"github.com/gotrx/starfish/pkg/base/config"
+	"github.com/transaction-mesh/starfish/pkg/base/config"
 )
 
 type DynamicConfigurationFactory interface {

@@ -5,8 +5,8 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/tc/config"
-	"github.com/gotrx/starfish/pkg/tc/session"
+	"github.com/transaction-mesh/starfish/pkg/tc/config"
+	"github.com/transaction-mesh/starfish/pkg/tc/session"
 )
 
 var lockManager LockManager

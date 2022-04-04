@@ -14,18 +14,18 @@ import (
 )
 
 import (
-	getty2 "github.com/gotrx/starfish/pkg/base/getty"
-	"github.com/gotrx/starfish/pkg/base/meta"
-	"github.com/gotrx/starfish/pkg/base/protocal"
-	"github.com/gotrx/starfish/pkg/base/protocal/codec"
-	"github.com/gotrx/starfish/pkg/tc/config"
-	"github.com/gotrx/starfish/pkg/tc/event"
-	"github.com/gotrx/starfish/pkg/tc/holder"
-	"github.com/gotrx/starfish/pkg/tc/lock"
-	"github.com/gotrx/starfish/pkg/tc/session"
-	"github.com/gotrx/starfish/pkg/util/log"
-	"github.com/gotrx/starfish/pkg/util/runtime"
-	time2 "github.com/gotrx/starfish/pkg/util/time"
+	getty2 "github.com/transaction-mesh/starfish/pkg/base/getty"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/base/protocal"
+	"github.com/transaction-mesh/starfish/pkg/base/protocal/codec"
+	"github.com/transaction-mesh/starfish/pkg/tc/config"
+	"github.com/transaction-mesh/starfish/pkg/tc/event"
+	"github.com/transaction-mesh/starfish/pkg/tc/holder"
+	"github.com/transaction-mesh/starfish/pkg/tc/lock"
+	"github.com/transaction-mesh/starfish/pkg/tc/session"
+	"github.com/transaction-mesh/starfish/pkg/util/log"
+	"github.com/transaction-mesh/starfish/pkg/util/runtime"
+	time2 "github.com/transaction-mesh/starfish/pkg/util/time"
 )
 
 const (

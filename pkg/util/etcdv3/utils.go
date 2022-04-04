@@ -7,8 +7,8 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/constant"
-	"github.com/gotrx/starfish/pkg/base/registry"
+	"github.com/transaction-mesh/starfish/pkg/base/constant"
+	"github.com/transaction-mesh/starfish/pkg/base/registry"
 )
 
 func IsAddressValid(addr registry.Address) bool {

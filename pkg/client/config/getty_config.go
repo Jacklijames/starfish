@@ -5,7 +5,7 @@ import (
 )
 
 import (
-	config2 "github.com/gotrx/starfish/pkg/base/config"
+	config2 "github.com/transaction-mesh/starfish/pkg/base/config"
 )
 
 // GettyConfig

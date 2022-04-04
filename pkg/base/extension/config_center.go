@@ -9,8 +9,8 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/config"
-	"github.com/gotrx/starfish/pkg/base/config_center"
+	"github.com/transaction-mesh/starfish/pkg/base/config"
+	"github.com/transaction-mesh/starfish/pkg/base/config_center"
 )
 
 var (

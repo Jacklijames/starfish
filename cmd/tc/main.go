@@ -2,25 +2,25 @@ package main
 
 import (
 	"fmt"
-	"github.com/gotrx/starfish/common/version"
+	"github.com/transaction-mesh/starfish/common/version"
 	"os"
 	"strconv"
 
 	gxnet "github.com/dubbogo/gost/net"
 	"github.com/urfave/cli/v2"
 
-	"github.com/gotrx/starfish/pkg/base/common"
-	_ "github.com/gotrx/starfish/pkg/base/config_center/nacos"
-	_ "github.com/gotrx/starfish/pkg/base/registry/etcdv3"
-	_ "github.com/gotrx/starfish/pkg/base/registry/file"
-	_ "github.com/gotrx/starfish/pkg/base/registry/nacos"
-	"github.com/gotrx/starfish/pkg/tc/config"
-	"github.com/gotrx/starfish/pkg/tc/holder"
-	"github.com/gotrx/starfish/pkg/tc/lock"
-	_ "github.com/gotrx/starfish/pkg/tc/metrics"
-	"github.com/gotrx/starfish/pkg/tc/server"
-	"github.com/gotrx/starfish/pkg/util/log"
-	"github.com/gotrx/starfish/pkg/util/uuid"
+	"github.com/transaction-mesh/starfish/pkg/base/common"
+	_ "github.com/transaction-mesh/starfish/pkg/base/config_center/nacos"
+	_ "github.com/transaction-mesh/starfish/pkg/base/registry/etcdv3"
+	_ "github.com/transaction-mesh/starfish/pkg/base/registry/file"
+	_ "github.com/transaction-mesh/starfish/pkg/base/registry/nacos"
+	"github.com/transaction-mesh/starfish/pkg/tc/config"
+	"github.com/transaction-mesh/starfish/pkg/tc/holder"
+	"github.com/transaction-mesh/starfish/pkg/tc/lock"
+	_ "github.com/transaction-mesh/starfish/pkg/tc/metrics"
+	"github.com/transaction-mesh/starfish/pkg/tc/server"
+	"github.com/transaction-mesh/starfish/pkg/util/log"
+	"github.com/transaction-mesh/starfish/pkg/util/uuid"
 )
 
 var (

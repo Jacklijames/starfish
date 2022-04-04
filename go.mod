@@ -1,4 +1,4 @@
-module github.com/gotrx/starfish
+module github.com/transaction-mesh/starfish
 
 go 1.14
 

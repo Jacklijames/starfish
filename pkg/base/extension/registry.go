@@ -9,7 +9,7 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/registry"
+	"github.com/transaction-mesh/starfish/pkg/base/registry"
 )
 
 var (

@@ -18,11 +18,11 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/config"
-	"github.com/gotrx/starfish/pkg/base/constant"
-	"github.com/gotrx/starfish/pkg/base/extension"
-	"github.com/gotrx/starfish/pkg/base/registry"
-	"github.com/gotrx/starfish/pkg/util/log"
+	"github.com/transaction-mesh/starfish/pkg/base/config"
+	"github.com/transaction-mesh/starfish/pkg/base/constant"
+	"github.com/transaction-mesh/starfish/pkg/base/extension"
+	"github.com/transaction-mesh/starfish/pkg/base/registry"
+	"github.com/transaction-mesh/starfish/pkg/util/log"
 )
 
 func init() {

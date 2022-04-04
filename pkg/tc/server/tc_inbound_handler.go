@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/gotrx/starfish/pkg/base/protocal"
+	"github.com/transaction-mesh/starfish/pkg/base/protocal"
 )
 
 type TCInboundHandler interface {

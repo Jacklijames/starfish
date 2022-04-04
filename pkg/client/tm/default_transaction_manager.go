@@ -5,9 +5,9 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/meta"
-	"github.com/gotrx/starfish/pkg/base/protocal"
-	"github.com/gotrx/starfish/pkg/client/rpc_client"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/base/protocal"
+	"github.com/transaction-mesh/starfish/pkg/client/rpc_client"
 )
 
 type DefaultTransactionManager struct {

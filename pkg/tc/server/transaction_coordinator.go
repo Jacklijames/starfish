@@ -1,10 +1,10 @@
 package server
 
 import (
-	"github.com/gotrx/starfish/pkg/base/meta"
-	"github.com/gotrx/starfish/pkg/client/rm"
-	"github.com/gotrx/starfish/pkg/client/tm"
-	"github.com/gotrx/starfish/pkg/tc/session"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/client/rm"
+	"github.com/transaction-mesh/starfish/pkg/client/tm"
+	"github.com/transaction-mesh/starfish/pkg/tc/session"
 )
 
 type TransactionCoordinatorInbound interface {

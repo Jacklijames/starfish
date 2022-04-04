@@ -1,7 +1,7 @@
 package protocal
 
 import (
-	"github.com/gotrx/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
 )
 
 type AbstractTransactionResponse struct {

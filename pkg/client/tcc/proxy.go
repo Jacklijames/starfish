@@ -13,11 +13,11 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/meta"
-	"github.com/gotrx/starfish/pkg/client/context"
-	"github.com/gotrx/starfish/pkg/client/proxy"
-	"github.com/gotrx/starfish/pkg/util/log"
-	"github.com/gotrx/starfish/pkg/util/time"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/client/context"
+	"github.com/transaction-mesh/starfish/pkg/client/proxy"
+	"github.com/transaction-mesh/starfish/pkg/util/log"
+	"github.com/transaction-mesh/starfish/pkg/util/time"
 )
 
 var (

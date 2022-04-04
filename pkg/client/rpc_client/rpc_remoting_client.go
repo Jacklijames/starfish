@@ -16,12 +16,12 @@ import (
 )
 
 import (
-	getty2 "github.com/gotrx/starfish/pkg/base/getty"
-	"github.com/gotrx/starfish/pkg/base/protocal"
-	"github.com/gotrx/starfish/pkg/base/protocal/codec"
-	"github.com/gotrx/starfish/pkg/client/config"
-	"github.com/gotrx/starfish/pkg/util/log"
-	"github.com/gotrx/starfish/pkg/util/runtime"
+	getty2 "github.com/transaction-mesh/starfish/pkg/base/getty"
+	"github.com/transaction-mesh/starfish/pkg/base/protocal"
+	"github.com/transaction-mesh/starfish/pkg/base/protocal/codec"
+	"github.com/transaction-mesh/starfish/pkg/client/config"
+	"github.com/transaction-mesh/starfish/pkg/util/log"
+	"github.com/transaction-mesh/starfish/pkg/util/runtime"
 )
 
 const (

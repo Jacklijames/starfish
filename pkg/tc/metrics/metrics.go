@@ -9,9 +9,9 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/meta"
-	"github.com/gotrx/starfish/pkg/tc/event"
-	"github.com/gotrx/starfish/pkg/util/runtime"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/tc/event"
+	"github.com/transaction-mesh/starfish/pkg/util/runtime"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/protocal"
-	"github.com/gotrx/starfish/pkg/util/log"
+	"github.com/transaction-mesh/starfish/pkg/base/protocal"
+	"github.com/transaction-mesh/starfish/pkg/util/log"
 )
 
 type SerializerType byte

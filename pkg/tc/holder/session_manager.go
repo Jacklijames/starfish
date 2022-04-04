@@ -5,10 +5,10 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/meta"
-	"github.com/gotrx/starfish/pkg/tc/model"
-	"github.com/gotrx/starfish/pkg/tc/session"
-	"github.com/gotrx/starfish/pkg/util/log"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/tc/model"
+	"github.com/transaction-mesh/starfish/pkg/tc/session"
+	"github.com/transaction-mesh/starfish/pkg/util/log"
 )
 
 type SessionManager interface {

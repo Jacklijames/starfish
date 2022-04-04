@@ -5,10 +5,10 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/meta"
-	"github.com/gotrx/starfish/pkg/tc/config"
-	"github.com/gotrx/starfish/pkg/tc/model"
-	"github.com/gotrx/starfish/pkg/tc/session"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/tc/config"
+	"github.com/transaction-mesh/starfish/pkg/tc/model"
+	"github.com/transaction-mesh/starfish/pkg/tc/session"
 )
 
 type DataBaseSessionManager struct {

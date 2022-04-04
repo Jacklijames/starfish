@@ -1,8 +1,8 @@
 package tcc
 
 import (
-	"github.com/gotrx/starfish/pkg/base/meta"
-	"github.com/gotrx/starfish/pkg/client/proxy"
+	"github.com/transaction-mesh/starfish/pkg/base/meta"
+	"github.com/transaction-mesh/starfish/pkg/client/proxy"
 )
 
 type TCCResource struct {

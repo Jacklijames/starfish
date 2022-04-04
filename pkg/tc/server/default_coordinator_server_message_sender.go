@@ -11,7 +11,7 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/base/protocal"
+	"github.com/transaction-mesh/starfish/pkg/base/protocal"
 )
 
 func (coordinator *DefaultCoordinator) SendResponse(request protocal.RpcMessage, session getty.Session, msg interface{}) {

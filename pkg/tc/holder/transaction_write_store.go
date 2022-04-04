@@ -5,7 +5,7 @@ import (
 )
 
 import (
-	"github.com/gotrx/starfish/pkg/tc/session"
+	"github.com/transaction-mesh/starfish/pkg/tc/session"
 )
 
 type TransactionWriteStore struct {

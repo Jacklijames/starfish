@@ -8,7 +8,7 @@ import (
 )
 
 import (
-	time2 "github.com/gotrx/starfish/pkg/util/time"
+	time2 "github.com/transaction-mesh/starfish/pkg/util/time"
 )
 
 const (

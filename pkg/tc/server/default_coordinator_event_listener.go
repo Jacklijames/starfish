@@ -9,9 +9,9 @@ import (
 )
 
 import (
-	getty2 "github.com/gotrx/starfish/pkg/base/getty"
-	"github.com/gotrx/starfish/pkg/base/protocal"
-	"github.com/gotrx/starfish/pkg/util/log"
+	getty2 "github.com/transaction-mesh/starfish/pkg/base/getty"
+	"github.com/transaction-mesh/starfish/pkg/base/protocal"
+	"github.com/transaction-mesh/starfish/pkg/util/log"
 )
 
 const (
