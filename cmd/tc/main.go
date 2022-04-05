@@ -2,13 +2,18 @@ package main
 
 import (
 	"fmt"
-	"github.com/transaction-mesh/starfish/common/version"
 	"os"
 	"strconv"
+)
 
+import (
 	gxnet "github.com/dubbogo/gost/net"
-	"github.com/urfave/cli/v2"
 
+	"github.com/urfave/cli/v2"
+)
+
+import (
+	"github.com/transaction-mesh/starfish/common/version"
 	"github.com/transaction-mesh/starfish/pkg/base/common"
 	_ "github.com/transaction-mesh/starfish/pkg/base/config_center/nacos"
 	_ "github.com/transaction-mesh/starfish/pkg/base/registry/etcdv3"

@@ -3,11 +3,17 @@ package client
 import (
 	"fmt"
 	"net"
+)
 
+import (
 	getty "github.com/apache/dubbo-getty"
-	gxsync "github.com/dubbogo/gost/sync"
-	"github.com/nacos-group/nacos-sdk-go/common/logger"
 
+	gxsync "github.com/dubbogo/gost/sync"
+
+	"github.com/nacos-group/nacos-sdk-go/common/logger"
+)
+
+import (
 	"github.com/transaction-mesh/starfish/pkg/base/extension"
 	"github.com/transaction-mesh/starfish/pkg/base/getty/readwriter"
 	_ "github.com/transaction-mesh/starfish/pkg/base/registry/etcdv3"

@@ -1,15 +1,21 @@
 package config
 
 import (
-	"github.com/transaction-mesh/starfish/common/version"
 	"io"
 	"io/ioutil"
 	"os"
+)
 
+import (
 	"github.com/creasty/defaults"
-	"github.com/imdario/mergo"
-	"gopkg.in/yaml.v2"
 
+	"github.com/imdario/mergo"
+
+	"gopkg.in/yaml.v2"
+)
+
+import (
+	"github.com/transaction-mesh/starfish/common/version"
 	"github.com/transaction-mesh/starfish/pkg/base/config"
 	"github.com/transaction-mesh/starfish/pkg/base/config_center"
 	"github.com/transaction-mesh/starfish/pkg/base/extension"

@@ -1,6 +1,8 @@
 package config
 
-import "time"
+import (
+	"time"
+)
 
 type ATConfig struct {
 	DSN                 string        `yaml:"dsn" json:"dsn,omitempty"`
