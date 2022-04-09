@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	db *sql.DB
+	utContainerMySQL *sql.DB
 )
 
 func TestMain(m *testing.M) {
@@ -23,7 +23,7 @@ func TestMain(m *testing.M) {
 		Database: "starfish",
 	}
 	ctx, container := test.SetupMysql(testContainer)
-	db, err = testContainer.OpenConnection(ctx, container)
+	utContainerMySQL, err = testContainer.OpenConnection(ctx, container)
 	defer test.CloseConnection(ctx, container)
 	if err != nil {
 		log.Errorf("failed to setup MySQL container")
@@ -33,7 +33,7 @@ func TestMain(m *testing.M) {
 }
 
 func TestProducerSelect(t *testing.T) {
-	query, err := db.Query("select * from branch_table")
+	query, err := utContainerMySQL.Query("select * from branch_table")
 	if err != nil {
 		t.Errorf("error on list branch_table : %s", err)
 	}

@@ -25,10 +25,6 @@ type MysqlContainer struct {
 	Password string `validate:"required" yaml:"password" json:"password"`
 }
 
-var (
-	db *sql.DB
-)
-
 func SetupMysql(tester *MysqlContainer) (context.Context, testcontainers.Container) {
 	log.Info("setup mysql container")
 	ctx := context.Background()
